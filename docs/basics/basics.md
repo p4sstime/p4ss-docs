@@ -1,6 +1,6 @@
 # <b> 1.1: Basic Rules </b>
 
-## <b> 1.1.1: Any Form of Harassment/Discrimination/Toxicity/Etc is Punishable​ </b>
+## <b> 1.1.1: Any Form of Harassment/Discrimination/Toxicity/Etc is Punishable </b>
 
 We do not support any form of harassment of its players. People harassing others based on ethnicity, culture, religion or similar examples will get punished for their actions. 
 
@@ -8,7 +8,7 @@ We understand that things can get heated within a competitive game and we handle
 
 We ask you to remain as civil as possible when it comes to situations like this and to treat others with respect.
 
-## <b> 1.1.2: Warnings may lead to point deduction and/or removal from a competition​ </b>
+## <b> 1.1.2: Warnings may lead to point deduction and/or removal from a competition </b>
 - General System:
     - 3 Minor Warnings = 1 Major Warning
     - 1 Major Warning = Deduction of 1 point
@@ -37,7 +37,7 @@ To have Warnings related to missing screenshots and/or demo files removed, pleas
 
 <b>NOTE: These warnings are considered different warnings to PASS Fortress/4v4 PASS Time Discord warnings.</b>
 
-## <b> 1.1.3: Committing or supporting fraud is strictly forbidden​ </b>
+## <b> 1.1.3: Committing or supporting fraud is strictly forbidden </b>
 
 Committing or supporting the act of fraud is strictly forbidden. This includes, but is not limited to:
 
@@ -49,7 +49,7 @@ Committing or supporting the act of fraud is strictly forbidden. This includes, 
 
 All cases are reviewed individually. Penalties may vary based on the severity of each offense, with any decisions being made at the discretion of the admin team. All circumstances will be taken into account.
 
-## <b> 1.1.4: Disruption of [PASSTIME.TF](http://passtime.tf) and its services is strictly forbidden​ </b>
+## <b> 1.1.4: Disruption of [PASSTIME.TF](http://passtime.tf) and its services is strictly forbidden </b>
 
 Causing disruption to any tournament (i.e. the PASSTIME website, Tournament matches and any other service run by PASSTIME.TF) is strictly forbidden. This includes, but is not limited to:
 
