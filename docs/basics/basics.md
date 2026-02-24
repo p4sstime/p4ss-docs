@@ -56,7 +56,7 @@ Causing disruption to any tournament (i.e. the PASSTIME website, Tournament matc
 - Intentionally connecting to an in-game server during an ongoing match.
 - Tampering with server settings to disrupt or create an advantage for a team.
 - Attacking a server with a Denial of Service attack.
-- Connecting to a team’s voice server during an ongoing match with the intention of causing disruption.
+- Connecting to a team's voice server during an ongoing match with the intention of causing disruption.
 
 All cases are reviewed individually. Penalties may vary based on the severity of each offense, with any decisions being made at the discretion of the admin team. All circumstances will be taken into account.
 
