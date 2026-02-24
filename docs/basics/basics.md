@@ -1,4 +1,4 @@
-# <b> 1. Basic Rules </b>
+# <b> 1.1: Basic Rules </b>
 
 ## <b> 1.1.1: Any Form of Harassment/Discrimination/Toxicity/Etc is Punishable​ </b>
 
