@@ -1,4 +1,4 @@
-# <b> 4. Cheating and Exploiting </b>
+# <b> 4: Cheating and Exploiting </b>
 
 Any kind of cheats are not permitted. Players who are found guilty of using cheats or game exploits or illegal scripts or modifications categorized as cheats anywhere in TF2 will be banned.
 

@@ -1,4 +1,4 @@
-# <b> 3. Servers </b>
+# <b> 3: Servers </b>
 
 ## <b> 3.1: Be reasonable regarding servers </b>
 
