@@ -62,18 +62,18 @@ The team that requested the merc is responsible for making sure that this permis
 
 One default merc / Ringer is allowed by default in all divisions:
 
-- For Master+ / Division 1, Default mercs cannot be class-restricted. Any player that isn’t Master or above rating is considered a default merc / ringer. 
-- Any player who is being requested for a division lower than the division they are playing in isn’t considered a default ringer.
+- For Master+ / Division 1, Default mercs cannot be class-restricted. Any player that isn't Master or above rating is considered a default merc / ringer. 
+- Any player who is being requested for a division lower than the division they are playing in isn't considered a default ringer.
 - *For example: a master + rated player is being requested for in a division lower then master +, must always receive a confirmation from the enemy team that they are allowed to play.
 - Any player who has never played 4v4 PASS Time / PASS Fortress before is not considered a default merc, regardless of skill level in other competitive leagues.
 
-Some tournaments may vary in structure with the divisions, ask your tournament organizer if this doesn’t apply to your tournament match.
+Some tournaments may vary in structure with the divisions, ask your tournament organizer if this doesn't apply to your tournament match.
 
 # <b> 2.10.0: Pauses & Breaks </b>
 
 ## <b> 2.10.1: Technical Pauses </b>
 
-<b>-- Technical Pause Reason</b>
+<b> – Technical Pause Reason</b>
 
 Teams may request a technical pause at any time during a match. If you need to pause, <b>you must clearly request a pause using in-game chat</b> (e.g.: "Pause please"). The other team is then required to pause at the first appropriate time (e.g. not in the middle of a push) within 15 seconds.
 
@@ -82,45 +82,44 @@ Teams may request a technical pause at any time during a match. If you need to p
 - One or several players experience a computer issue (game crash, internet loss, computer crash, vocal server died, etc).
 - A game update occurred during the official forcing players to update their game and get a new server.
 - One or several players don't feel well.
-- Match is not going well and a team wants a tactical pause.
 
 Only the team that originally requested the pause may resume the game. The game may not be resumed under any circumstances without the approval of both teams.
 Each team has the right to one pause per map. However, if explicitly allowed by one of the teams, their opponents may pause multiple times per map and have longer pauses if required. If your opponent allows a pause longer than five minutes, or more than one pause, you are expected to extend the same courtesy to them.
 
-<b>-- Duration </b>
+<b> – Duration </b>
 
 Technical pauses may not last more than 5 minutes during a map, unless the opposite team is okay with it.
 
-<b>-- Penalties</b>
+<b> – Penalties</b>
 
 Not responding to a pause request or abusing pause duration during a match may lead to penalties like a Minor Warning or, in extreme cases, a Major Warning and a Default Loss for the map.
 
 ## <b> 2.10.2: Tactical Pauses </b>
 
-<b>-- Tactical Pause Reason</b>
+<b> – Tactical Pause Reason</b>
 
 Teams may pause during the end of rounds and in setup time, teams aren't required to ask the opposite team for a pause, but must clarify that it is a tactical pause. 
 
 <b>Tactical Pauses are for discussing team strategy, teams are allowed to discuss with their coaches during these pauses if they have one.</b>
 
-<b>-- Duration</b>
+<b> – Duration</b>
 
 Tactical Pauses may not last more than 90 seconds during a map, unless the opposite team is okay with it.
 
-<b>-- Penalties</b>
+<b> – Penalties</b>
 
 Abusing pause duration during a match may lead to penalties like a Minor Warning or, in extreme cases, a Major Warning and a Default Loss for the map.
 
 ## <b> 2.10.3: Break </b>
-<b>-- Reason</b>
+<b> – Reason</b>
 
 A short break is allowed between maps and rounds and can last longer if both team agree.
 
-<b>-- Duration</b>
+<b> – Duration</b>
 
 Breaks between the maps may not last more than 10 minutes.
 
-<b>-- Penalties</b>
+<b> – Penalties</b>
 
 Failing to resume the game in time or abusing the breaks duration during a match may lead to penalties like a Minor Warning or, in extreme cases, a Major Warning and a Default Loss for the map.
 
