@@ -8,4 +8,5 @@ nav:
     - '2: Matches': 'matches/matches.md'
     - '3: Servers': 'servers/servers.md'
     - '4: Cheating': 'cheating/cheating.md'
-      
+    - '5: Scripts': 'scripts/scripts.md'  
+    - '6: Game Modifications': 'mods/mods.md'
