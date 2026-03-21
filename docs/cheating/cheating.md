@@ -2,7 +2,8 @@
 
 Any kind of cheats are not permitted. Players who are found guilty of using cheats or game exploits or illegal scripts or modifications categorized as cheats anywhere in TF2 will be banned.
 
-<b> Example of banned exploits </b>
+<b> Examples of banned exploits: </b>
+
 - Any way to get the JACK out of bounds, with the intent of making it unreachable for the enemy team or to reset the JACK.
 - <a href=https://github.com/ValveSoftware/Source-1-Games/issues/2195>Reverse Quantum Crouch</a> or any similar methods that bug hitboxes, visually or non-visually
 - Bugging player model animations (e.g. entering civilian/reference poses)
