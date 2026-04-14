@@ -1,21 +1,17 @@
-site_name: 4v4 Passtime Ruleset
+site_name: PASSTIME.TF Docs
 site_url: https://p4sstime.github.io/p4ss-docs/
 repo_url: https://github.com/p4sstime/p4ss-docs/
 theme: 
   name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  font:
+    text: Montserrat
+    code: Roboto Mono
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+      primary: black
+      accent: green
   features:
     - navigation.tabs
     - navigation.sections
@@ -23,14 +19,20 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+
+extra_css:
+  - css/custom.css
+
 nav:
     - Home: 'index.md'
-    - '1.1: Basic Rules': 'basics/basics.md'
-    - '1.2: Players': 'basics/players.md'
-    - '2: Matches': 'matches/matches.md'
-    - '3: Servers': 'servers/servers.md'
-    - '4: Cheating': 'cheating/cheating.md'
-    - '5: Scripts': 'scripts/scripts.md'  
-    - '6: Game Modifications': 'mods/mods.md'
-    - '7: Explanations': 'explanations/explanations.md'
-    - '8: Maps and Configs': 'maps-configs/maps-and-configs.md'
+    - 'Ruleset':
+        - '1.1: Basic Rules': 'basics/basics.md'
+        - '1.2: Players': 'basics/players.md'
+        - '2: Matches': 'matches/matches.md'
+        - '3: Servers': 'servers/servers.md'
+        - '4: Cheating': 'cheating/cheating.md'
+        - '5: Scripts': 'scripts/scripts.md'
+        - '6: Game Modifications': 'mods/mods.md'
+        - '7: Explanations': 'explanations/explanations.md'
+        - '8: Maps and Configs': 'maps-configs/maps-and-configs.md'
+    - 'Back to League Site': 'https://league.passtime.tf'

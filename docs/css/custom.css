@@ -1,0 +1,114 @@
+:root {
+  --md-primary-fg-color: #262626;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #98bf64;
+  --md-accent-bg-color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #262626;
+  --md-default-bg-color--light: #2b2b2b;
+  --md-default-bg-color--lighter: #303030;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+}
+
+.md-typeset h1 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  color: #98bf64;
+  border-bottom: 1px solid rgba(152, 191, 100, 0.2);
+  padding-bottom: 1rem;
+}
+
+.md-typeset h2 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.md-typeset h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  color: #98bf64;
+}
+
+.md-typeset ul,
+.md-typeset ol {
+  margin-bottom: 1.5rem;
+}
+
+.md-typeset li {
+  margin-bottom: 0.5rem;
+}
+
+.md-nav__link {
+  font-weight: 500;
+  transition: color 0.25s;
+}
+
+.md-nav__link--active {
+  color: #98bf64 !important;
+  font-weight: 700;
+  border-left: 3px solid #98bf64;
+  padding-left: 12px !important;
+}
+
+.md-nav__link:hover {
+  color: #98bf64 !important;
+}
+
+.md-header {
+  background-color: #262626 !important;
+  border-bottom: 2px solid #98bf64;
+}
+
+.portal-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(152, 191, 100, 0.1);
+  border-left: 6px solid #98bf64;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.portal-card:hover {
+  background: rgba(152, 191, 100, 0.1);
+  transform: translateX(10px);
+  border-color: #98bf64;
+}
+
+.portal-card h2 {
+  margin-top: 0;
+  color: #98bf64;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.portal-card p {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.md-nav__item a[href*="league.passtime.tf"] {
+  color: #98bf64 !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-style: italic;
+  background: rgba(152, 191, 100, 0.1);
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-top: 20px;
+  display: block;
+}
