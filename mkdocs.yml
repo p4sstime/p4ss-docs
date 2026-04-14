@@ -1,4 +1,6 @@
 site_name: 4v4 Passtime Ruleset
+site_url: https://p4sstime.github.io/p4ss-docs/
+repo_url: https://github.com/p4sstime/p4ss-docs/
 theme: 
   name: material
 nav:
