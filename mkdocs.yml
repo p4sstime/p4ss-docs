@@ -3,6 +3,26 @@ site_url: https://p4sstime.github.io/p4ss-docs/
 repo_url: https://github.com/p4sstime/p4ss-docs/
 theme: 
   name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
 nav:
     - Home: 'index.md'
     - '1.1: Basic Rules': 'basics/basics.md'
