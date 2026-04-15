@@ -18,7 +18,13 @@ One Medic from each team participates in a melee fist fight. The winning team ge
 
 Note: It is not mandatory for a team's designated Medic player to be chosen for a Medic Melee Only Fight.
 
-## <b> 7.3: Picks/Bans System </b>
+## <b> 7.3: Match Format </b>
+
+Unless specified otherwise, all regular season matches played in Pass Time League will be Best of 1 map, and played with the pt_global_official config, which specifies a winlimit of 3. Matches are to be reported based on the rounds won, e.g:
+
+Team 1 3-2 Team 2
+
+## <b> 7.4: Picks/Bans System </b>
 
 This system is used to decide maps for playoffs and tiebreaker matches when specified by the competition.
 
