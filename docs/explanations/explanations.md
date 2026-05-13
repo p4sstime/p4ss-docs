@@ -34,20 +34,22 @@ Map 3: Team 1 3-0 Team 2
 
 This system is used to decide maps for playoffs and tiebreaker matches when specified by the competition.
 
+For a Bo3 set (Typically Regular Playoffs):
+
 The higher seeded team will decide whether to be Team A or Team B. 
 
 - Team A bans a map
 - Team B bans a map
 - Team B picks a map
 - Team A picks a map
-- Team B bans a map
 - Team A bans a map
+- Team B bans a map
 - Team A picks a map
 - Remaining map will not be played.
 
-For a Grand Finals set:
+For a Bo5 w/ Map Advantage set (Typically Grand Finals):
 
-The upper bracket team will decide whether to be Team A or Team B.
+The higher seeded team will decide whether to be Team A or Team B. (For Grand Finals, this is the Upper Bracket team)
 
 - Team A bans a map
 - Team B bans a map
