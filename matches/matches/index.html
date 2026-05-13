@@ -1,0 +1,1128 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://p4sstime.github.io/p4ss-docs/matches/matches/">
+      
+      
+        <link rel="prev" href="../../basics/players/">
+      
+      
+        <link rel="next" href="../../servers/servers/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>2: Matches - PASSTIME.TF Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Montserrat";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2-matches" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="PASSTIME.TF Docs" class="md-header__button md-logo" aria-label="PASSTIME.TF Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PASSTIME.TF Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              2: Matches
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="green"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/p4sstime/p4ss-docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../basics/basics/" class="md-tabs__link">
+          
+  
+  
+  Ruleset
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://league.passtime.tf" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Back to League Site
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PASSTIME.TF Docs" class="md-nav__button md-logo" aria-label="PASSTIME.TF Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    PASSTIME.TF Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/p4sstime/p4ss-docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ruleset
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ruleset
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basics/basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.1: Basic Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basics/players/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.2: Players
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2: Matches
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2: Matches
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#21-a-delay-of-15-minutes-is-allowed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1: A delay of 15 minutes is allowed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-matches-can-only-be-rescheduled-by-mutual-agreement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2: Matches can only be rescheduled by mutual agreement
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-maps-need-to-be-played-in-the-set-order" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3: Maps need to be played in the set order
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-deciding-sides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4: Deciding sides
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-player-changes-during-a-match" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5: Player changes during a match
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#26-only-authorized-spectators-allowed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6: Only authorized spectators allowed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#27-no-live-coaching-allowed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.7: No live coaching allowed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#28-streaming-official-matches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.8: Streaming official matches
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#29-ringers-mercs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.9: Ringers / Mercs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#291-default-ringersmerc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.9.1: Default Ringers/Merc
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../servers/servers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3: Servers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cheating/cheating/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4: Cheating
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scripts/scripts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5: Scripts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mods/mods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6: Game Modifications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../explanations/explanations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7: Explanations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../maps-configs/maps-and-configs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8: Maps and Configs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://league.passtime.tf" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Back to League Site
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#21-a-delay-of-15-minutes-is-allowed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1: A delay of 15 minutes is allowed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-matches-can-only-be-rescheduled-by-mutual-agreement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2: Matches can only be rescheduled by mutual agreement
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-maps-need-to-be-played-in-the-set-order" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3: Maps need to be played in the set order
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-deciding-sides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4: Deciding sides
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-player-changes-during-a-match" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5: Player changes during a match
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#26-only-authorized-spectators-allowed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6: Only authorized spectators allowed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#27-no-live-coaching-allowed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.7: No live coaching allowed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#28-streaming-official-matches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.8: Streaming official matches
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#29-ringers-mercs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.9: Ringers / Mercs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#291-default-ringersmerc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.9.1: Default Ringers/Merc
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="2-matches"><b> 2: Matches </b></h1>
+<h2 id="21-a-delay-of-15-minutes-is-allowed"><b>2.1: A delay of 15 minutes is allowed </b></h2>
+<p>A match may be delayed by no longer than 15 minutes. If a team fails to ready up with an eligible team present on the server 15 minutes after the match was supposed to start, the opposing team may claim a Default Win.</p>
+<p>After a map change, both teams have up to 10 minutes to organise, starting when the first player rejoins the server. If a team fails to ready up with an eligible team present on the server after a switch, the opposing team can claim a Default Win for the single map/round concerned, instead of for the entire match. In official matches with multiple map series (i.e. officials in playoffs stages), any remaining maps that need to be played after claiming a single map Default Win must still be played.</p>
+<p>In order to claim a Default Win, please take a scoreboard screenshot of your team being available on the server at match time, gather any evidence you think concludes the case (e.g. demo files, server logs) and contact a League Admin about the issue as soon as possible.</p>
+<h2 id="22-matches-can-only-be-rescheduled-by-mutual-agreement"><b>2.2: Matches can only be rescheduled by mutual agreement </b></h2>
+<p>A scheduled match can only be rescheduled within the match's deadline once both teams have agreed to it.</p>
+<h2 id="23-maps-need-to-be-played-in-the-set-order"><b>2.3: Maps need to be played in the set order </b></h2>
+<p>Maps are required to be played in the order they are displayed on the official match page, from left to right. Teams may play already set season/cup maps in a different order if they choose to, but only if both teams agree.</p>
+<h2 id="24-deciding-sides"><b>2.4: Deciding sides </b></h2>
+<p>If teams cannot agree which team plays RED and which team plays BLU, they must perform a Medic melee only fight.</p>
+<p>Note: no unlocks may be used during a Medic, melee only fight, unless both Medics have the same unlock equipped. </p>
+<h2 id="25-player-changes-during-a-match"><b> 2.5: Player changes during a match </b></h2>
+<p>Teams are allowed to switch players during the match, with or without a pause, only once per map, as long as the joining player is rostered on that team or has been approved as a merc/ringer by the opposing team. However, using this to bypass spawn times is strictly forbidden. Furthermore, a team may under no circumstances have more than four players on the server.</p>
+<p>Teams are allowed to switch as many players as they would like after a map change as long as they are entered correctly on the team roster or have been approved as a merc by the opposing team.</p>
+<h2 id="26-only-authorized-spectators-allowed"><b> 2.6: Only authorized spectators allowed </b></h2>
+<p>Only spectators authorized by the tournament organizers, or for the use of SourceTV, are allowed. Any third party who is caught relaying match information to a team via in-game spectate or similar means (ghosting), and/or teams who intentionally acquire information in this manner are subject to punishments including warnings, match or round overturns and/or league bans depending on the severity of the offense.</p>
+<h2 id="27-no-live-coaching-allowed"><b> 2.7: No live coaching allowed </b></h2>
+<p>During an ongoing official teams may not receive specific match directions or guidance by third parties who are not directly involved in the match themselves (e.g. with the help of screen sharing, voice communication channels, by watching a player's POV in person etc.).</p>
+<p><b>These kinds of interactions must be limited to periods before and after a match, during pauses or in-between rounds.</b></p>
+<h2 id="28-streaming-official-matches"><b> 2.8: Streaming official matches </b></h2>
+<p>Players are free to stream their matches on any streaming service. While we do not condone stream sniping, we will not punish any offenders as it is a risk players willingly take by streaming their matches. Teams are expected to understand this risk. </p>
+<p>We suggest adding a stream delay of at least two minutes and taking further measures to reduce the possibility of getting stream sniped (e.g. muting the stream during pauses).</p>
+<h2 id="29-ringers-mercs"><b> 2.9: Ringers / Mercs </b ></h2>
+<p>Mercenaries or "Mercs" or "ringers" are defined as players who are not part of a team's roster.</p>
+<p><b>Standard:</b> A team can use up to a maximum of 2 mercs (including default merc) per map and simultaneously, even if the opponent would allow the use of more than 2 mercs. A team can only use 1 default merc as per rule [2.9.1: Default Ringers / Mercs]. Otherwise, no team may use a merc at any time during a match unless the player(s) is/are granted explicit written permission to play by the opposing team.</p>
+<p><b>Process:</b> Merc permission grants are player-based and class-based: teams are free to choose whether a player is allowed to play for their opponents as a merc and which classes they are allowed to play. If no specific classes are stated, a player allowed to play as a merc can play any class of their choice.</p>
+<p>All agreements for merc permission grants and the usage of default mercs must be logged and provided in the official match's respective comments.</p>
+<p>The team that requested the merc is responsible for making sure that this permission is granted. If a team wants to use any players who are not eligible to be a default merc, they must contact the opponent before the match starts.</p>
+<p><b>Breaking the rules:</b> Failing to present a default merc to the opposing team will grant you a minor warning. A team using an unapproved merc or an unregistered player will receive a minor warning and Default Loss.</p>
+<h2 id="291-default-ringersmerc"><b> 2.9.1: Default Ringers/Merc </b></h2>
+<p>One default merc / Ringer is allowed by default in all divisions:</p>
+<ul>
+<li>For Master+ / Division 1, Default mercs cannot be class-restricted. Any player that isn't Master or above rating is considered a default merc / ringer. </li>
+<li>Any player who is being requested for a division lower than the division they are playing in isn't considered a default ringer.</li>
+<li>*For example: a master + rated player is being requested for in a division lower then master +, must always receive a confirmation from the enemy team that they are allowed to play.</li>
+<li>Any player who has never played 4v4 PASS Time / PASS Fortress before is not considered a default merc, regardless of skill level in other competitive leagues.</li>
+</ul>
+<p>Some tournaments may vary in structure with the divisions, ask your tournament organizer if this doesn't apply to your tournament match.</p>
+<h1 id="2100-pauses-breaks"><b> 2.10.0: Pauses &amp; Breaks </b></h1>
+<h2 id="2101-technical-pauses"><b> 2.10.1: Technical Pauses </b></h2>
+<p><b> – Technical Pause Reason</b></p>
+<p>Teams may request a technical pause at any time during a match. If you need to pause, <b>you must clearly request a pause using in-game chat</b> (e.g.: "Pause please"). The other team is then required to pause at the first appropriate time (e.g. not in the middle of a push) within 15 seconds.</p>
+<p><b>Most common reasons for requesting a technical pause are:</b></p>
+<ul>
+<li>One or several players experience a computer issue (game crash, internet loss, computer crash, vocal server died, etc).</li>
+<li>A game update occurred during the official forcing players to update their game and get a new server.</li>
+<li>One or several players don't feel well.</li>
+</ul>
+<p>Only the team that originally requested the pause may resume the game. The game may not be resumed under any circumstances without the approval of both teams.
+Each team has the right to one pause per map. However, if explicitly allowed by one of the teams, their opponents may pause multiple times per map and have longer pauses if required. If your opponent allows a pause longer than five minutes, or more than one pause, you are expected to extend the same courtesy to them.</p>
+<p><b> – Duration </b></p>
+<p>Technical pauses may not last more than 5 minutes during a map, unless the opposite team is okay with it.</p>
+<p><b> – Penalties</b></p>
+<p>Not responding to a pause request or abusing pause duration during a match may lead to penalties like a Minor Warning or, in extreme cases, a Major Warning and a Default Loss for the map.</p>
+<h2 id="2102-tactical-pauses"><b> 2.10.2: Tactical Pauses </b></h2>
+<p><b> – Tactical Pause Reason</b></p>
+<p>Teams may pause during the end of rounds and in setup time, teams aren't required to ask the opposite team for a pause, but must clarify that it is a tactical pause. </p>
+<p><b>Tactical Pauses are for discussing team strategy, teams are allowed to discuss with their coaches during these pauses if they have one.</b></p>
+<p><b> – Duration</b></p>
+<p>Tactical Pauses may not last more than 90 seconds during a map, unless the opposite team is okay with it.</p>
+<p><b> – Penalties</b></p>
+<p>Abusing pause duration during a match may lead to penalties like a Minor Warning or, in extreme cases, a Major Warning and a Default Loss for the map.</p>
+<h2 id="2103-break"><b> 2.10.3: Break </b></h2>
+<p><b> – Reason</b></p>
+<p>A short break is allowed between maps and rounds and can last longer if both team agree.</p>
+<p><b> – Duration</b></p>
+<p>Breaks between the maps may not last more than 10 minutes.</p>
+<p><b> – Penalties</b></p>
+<p>Failing to resume the game in time or abusing the breaks duration during a match may lead to penalties like a Minor Warning or, in extreme cases, a Major Warning and a Default Loss for the map.</p>
+<h2 id="2104-teams-must-wait-out-the-sourcetv-broadcast-delay-in-all-matches-casted-by-an-organisation"><b>2.10.4: Teams must wait out the SourceTV broadcast delay in all matches casted by an organisation</b></h2>
+<p>Teams must wait out the SourceTV broadcast delay before changing maps in all matches casted by an organisation (<b>tv_delaymapchange_protect 1</b>). If the server was rented, the reservation may not be ended early before the cast has finished covering the last round. The team responsible for an early map change or a reservation being ended early will be punished with a Minor Warning. Repeated violations of this rule will be punished with Major Warnings.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
