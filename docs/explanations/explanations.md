@@ -47,6 +47,8 @@ The higher seeded team will decide whether to be Team A or Team B.
 
 For a Grand Finals set:
 
+The upper bracket team will decide whether to be Team A or Team B.
+
 - Team A bans a map
 - Team B bans a map
 - Team A picks a map
