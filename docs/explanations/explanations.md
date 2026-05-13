@@ -56,8 +56,9 @@ For a Grand Finals set:
 - Team A picks a map
 - Team B picks the remaining map
 
-In the event that one team reaches out to the other team to complete the map picks/bans, and the other team fails to pick or ban a map within the 72 hour pick/ban deadline, then the team that reached out will instead pick or ban a map for them. If the aforementioned team continues to not respond, the other team will choose all of the maps for the match. 
+Picks/Bans may be done via Discord or through match comms. Team leaders are expected to pay attention to both methods throughout the week regardless of which is used. It is courteous for team leaders to make some form of contact with the other team leader in the case they are not responding to match comms. 
 
+In the event that one team reaches out to the other team to complete the map picks/bans, and the other team fails to pick or ban a map within the 72 hour pick/ban deadline, then the team that reached out will instead pick or ban a map for them. If the aforementioned team continues to not respond, the other team will choose all of the maps for the match. 
 A map pool consisting of eight maps is assumed. If less maps are available, instructions on how to proceed will be given on the match page.
 
 Unless stated otherwise, assume that if a tournament is using this recommended ruleset, that the pick ban system works like this.
