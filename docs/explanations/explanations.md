@@ -20,9 +20,15 @@ Note: It is not mandatory for a team's designated Medic player to be chosen for 
 
 ## <b> 7.3: Match Format </b>
 
-Unless specified otherwise, all regular season matches played in Pass Time League will be Best of 1 map, and played with the pt_global_official config, which specifies a winlimit of 3. Matches are to be reported based on the rounds won, e.g:
+Unless specified otherwise, all regular season matches played in Pass Time League will be a Best of 1 map format, and played with the pt_global_official config, which specifies a winlimit of 3. Matches are to be reported based on the rounds won, e.g:
 
 Team 1 3-2 Team 2
+
+For playoffs, all matches except Grand Finals will be Best of 3 maps, and played with the pt_global_official config, which specifies a winlimit of 3. Grand Finals is Best of 5 maps with the upper bracket team starting with a map advantage (Essentially, the upper bracket team starts out 1-0.) Matches are to be reported based on the rounds won, e.g:
+
+Map 1: Team 1 3-2 Team 2
+Map 2: Team 1 2-3 Team 2
+Map 3: Team 1 3-0 Team 2
 
 ## <b> 7.4: Picks/Bans System </b>
 
@@ -38,6 +44,17 @@ The higher seeded team will decide whether to be Team A or Team B.
 - Team A bans a map
 - Team A picks a map
 - Remaining map will not be played.
+
+For a Grand Finals set:
+
+- Team A bans a map
+- Team B bans a map
+- Team A picks a map
+- Team B picks a map
+- Team A bans a map
+- Team B bans a map
+- Team A picks a map
+- Team B picks the remaining map
 
 In the event that one team reaches out to the other team to complete the map picks/bans, and the other team fails to pick or ban a map within the 72 hour pick/ban deadline, then the team that reached out will instead pick or ban a map for them. If the aforementioned team continues to not respond, the other team will choose all of the maps for the match. 
 
